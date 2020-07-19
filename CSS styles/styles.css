@@ -1,0 +1,272 @@
+/******** BODY *********/
+
+body {
+  background-color: #c7e2b2;
+  margin: 0;
+  text-align: center;
+  font-family: fantasy;
+}
+
+hr {
+  border: dotted #654a2b 10px;
+  border-bottom: none;
+  width: 9%;
+  margin: 100px auto;
+
+}
+
+h1 {
+  color: #2e402d;
+  margin: 0 auto;
+  font-family: 'Rowdies', cursive;
+  font-size: 3rem;
+}
+
+h2 {
+  color: #2e402d;
+  margin: 0 auto;
+  font-family: 'Rowdies', cursive;
+  font-size: 2rem;
+}
+
+h3 {
+  color: #2e402d;
+  margin: 0 auto;
+  font-family: 'Rowdies', cursive;
+
+}
+
+p {
+  color: #151c15;
+  margin: 0 auto;
+  font-family: 'Noto Sans', sans-serif;
+  line-height: 1.7;
+  font-size: 14px;
+
+}
+
+a {
+  color: #2e402d;
+  font-family: 'Rowdies', cursive;
+  margin: 0 7px;
+  text-decoration: none
+
+}
+
+a:hover {
+  color: #c7e2b2;
+}
+
+
+/*********CLASS***********/
+
+
+/*------------------------------*/
+/** 1st DIV - TOP CONTAINER **/
+/*------------------------------*/
+
+.top-container {
+
+  position: relative;
+  padding-top: 100px;
+}
+
+.Hello-World {
+  color: #0c100c;
+  margin: 0;
+  font-family: 'Rowdies', cursive;
+  font-size: 4rem;
+  padding: 40px;
+}
+
+.cloud-top {
+  position: absolute;
+  right: 250px;
+  top: 30px;
+}
+
+.cloud-top2 {
+  position: absolute;
+  left: 330px;
+  top: 80px;
+}
+
+.cloud-bottom {
+  position: absolute;
+  top: 200px;
+  left: 120px;
+}
+
+.top-tree {
+  display: block;
+  margin: 50px auto;
+
+}
+
+
+.middle-container {
+  background-color: #9bbf85;
+  position: relative;
+}
+
+
+.welcome-in {
+  margin: 0 500px 10px 0;
+  font-size: 1.7rem;
+}
+
+.green-dimensions {
+  color: #2e402d;
+  display: inline-block;
+  margin: 0;
+  font-family: 'Rowdies', cursive;
+
+}
+
+.green-side-txt {
+  display: block;
+  margin: 10px 0 50px 500px;
+  font-size: 1.7rem;
+}
+
+.profile-box {
+  padding-bottom: 20px;
+}
+
+
+/*------------------------------*/
+/** 2nd DIV - MIDDLE CONTAINER **/
+/*------------------------------*/
+
+.thoughts-box {
+  background-color: #9bbf85;
+  position: relative;
+  padding-top: 3px;
+}
+
+.underconstruction {
+  color: #151c15;
+  margin-left: 100px;
+  margin-top: 30px;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 20px;
+  text-align: left;
+
+}
+
+.tuned {
+  color: #151c15;
+  margin-left: 107px;
+  margin-top: 1px;
+  margin-bottom: 50px;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+  text-align: left;
+
+}
+
+.plantbox {
+  background-color: #c7e2b2;
+  margin: 0 auto;
+  width: 50%;
+  text-align: left;
+  padding: 25px 0;
+  border-radius: 10%;
+
+}
+
+.plant {
+  width: 150px;
+  padding-bottom: 50px;
+  float: left;
+  display: flex;
+}
+
+
+
+.leafbox {
+  background-color: #c7e2b2;
+  margin: 0 auto;
+  width: 50%;
+  text-align: left;
+  padding: 20px 10px;
+  border-radius: 10%;
+
+}
+
+.leaf {
+  width: 150px;
+  padding-bottom: 50px;
+  float: right;
+  display: flex;
+}
+
+.green-gallery {
+  background-color: #c7e2b2;
+  margin: 0 auto;
+  width: 35%;
+  padding: 50px 0;
+  border-radius: 15%;
+}
+
+.green-stories {
+
+  background-color: #c7e2b2;
+  margin: 0 auto;
+  width: 35%;
+  padding: 50px 0;
+  border-radius: 15%;
+}
+
+.look {
+  width: 30% auto;
+  padding-bottom: 25px;
+}
+
+.btn {
+  background: #95b87f;
+  background-image: -webkit-linear-gradient(top, #95b87f, #91c190);
+  background-image: -moz-linear-gradient(top, #95b87f, #91c190);
+  background-image: -ms-linear-gradient(top, #95b87f, #91c190);
+  background-image: -o-linear-gradient(top, #95b87f, #91c190);
+  background-image: linear-gradient(top bottom, #95b87f, #91c190);
+  -webkit-border-radius: 49;
+  -moz-border-radius: 49;
+  border-radius: 49px;
+  text-shadow: 2px 1px 3px #666666;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  font-family: 'Noto Sans', sans-serif;
+  color: #344d32;
+  font-size: 16px;
+  padding: 7px 16px 7px 16px;
+  border: solid #a7c2a5 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #81c771;
+  background-image: -webkit-linear-gradient(top, #81c771, #4a8043);
+  background-image: -moz-linear-gradient(top, #81c771, #4a8043);
+  background-image: -ms-linear-gradient(top, #81c771, #4a8043);
+  background-image: -o-linear-gradient(top, #81c771, #4a8043);
+  background-image: linear-gradient(top bottom, #81c771, #4a8043);
+  text-decoration: none;
+}
+
+
+/*------------------------------*/
+/** 3rd DIV - BOTTOM CONTAINER **/
+/*------------------------------*/
+
+.bottom-container {
+  width: 50% auto;
+  padding: 50px;
+  background-color: #9bbf85;
+}
+
+.copyright {
+  color: #2e402d;
+}
