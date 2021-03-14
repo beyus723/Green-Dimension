@@ -1,2 +1,2 @@
-# neture-dimension
+# nature-dimension
 hello world
