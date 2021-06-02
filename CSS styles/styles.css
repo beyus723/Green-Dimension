@@ -26,7 +26,8 @@ h2 {
   color: #2e402d;
   margin: 0 auto;
   font-family: 'Rowdies', cursive;
-  /* font-size: 2rem; */
+  font-size: 1.4rem;
+
 }
 
 h3 {
@@ -215,26 +216,25 @@ a:hover {
 .middle-container {
   background-color: #9bbf85;
   position: relative;
-  /* display: flex;
+  display: flex;
   flex-direction: row;
-  align-content: space-between; */
+  align-content: space-around;
 
-  display: grid;
-
-   grid-column: <start-line> / <end-line>
+  /* display: grid;
+  grid-column: <start-line> / <end-line> */
 
 }
 
 
 .green-gallery {
   background-color: #c7e2b2;
-  margin: 70px auto;
-  width: 300px;
-  height: 160px;
+  margin: 50px auto;
   /* padding: 50px 0; */
-  /* border-radius: 15%; */
+  width: 230px;
+  height: 120px;
 
-
+  border-radius: 7%;
+  justify-content: center;
 }
 
 .green-stories {
@@ -263,17 +263,18 @@ a:hover {
   background-image: linear-gradient(top bottom, #95b87f, #91c190);
   -webkit-border-radius: 49;
   -moz-border-radius: 49;
-  border-radius: 49px;
+  border-radius: 19px;
   text-shadow: 2px 1px 3px #666666;
   -webkit-box-shadow: 0px 1px 3px #666666;
   -moz-box-shadow: 0px 1px 3px #666666;
   box-shadow: 0px 1px 3px #666666;
   font-family: 'Noto Sans', sans-serif;
   color: #344d32;
-  font-size: 16px;
-  padding: 7px 16px 7px 16px;
+  font-size: 14px;
+  padding: 6px 6px 6px 6px;
   border: solid #a7c2a5 2px;
   text-decoration: none;
+
 }
 
 .btn:hover {
@@ -300,4 +301,25 @@ a:hover {
 
 .copyright {
   color: #2e402d;
+}
+
+
+
+
+/* +++++++++++++++++++++++++++++++++MediaQ */
+
+@media all and (max-width: 1023px) {
+
+  .middle-container {
+    background-color: #9bbf85;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+
+    /* display: grid;
+    grid-column: <start-line> / <end-line> */
+
+  }
+
 }
