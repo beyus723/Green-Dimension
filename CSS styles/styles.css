@@ -17,7 +17,7 @@ hr {
 
 h1 {
   color: #2e402d;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   font-family: 'Rowdies', cursive;
   font-size: 3rem;
 }
@@ -26,7 +26,7 @@ h2 {
   color: #2e402d;
   margin: 0 auto;
   font-family: 'Rowdies', cursive;
-  font-size: 2rem;
+  /* font-size: 2rem; */
 }
 
 h3 {
@@ -38,7 +38,7 @@ h3 {
 
 p {
   color: #151c15;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   font-family: 'Noto Sans', sans-serif;
   line-height: 1.7;
   font-size: 14px;
@@ -58,129 +58,135 @@ a:hover {
 }
 
 
-/*********CLASS***********/
-
-
-/*------------------------------*/
-/** 1st DIV - TOP CONTAINER **/
+/*--------------------------------------------------------------------------------*/
+/* * 1st DIV - TOP CONTAINER * */
 /*------------------------------*/
 
 .top-container {
-
-  position: relative;
-  padding-top: 100px;
+  width: 100%;
 }
 
-.Hello-World {
+.top-box {
+  /* background-color: yellow; */
+  position: relative;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.helloWorld {
   color: #0c100c;
   margin: 0;
   font-family: 'Rowdies', cursive;
-  font-size: 4rem;
-  padding: 40px;
+  font-size: 4.5rem;
+  padding: 70px;
 }
 
 .cloud-top {
   position: absolute;
-  right: 250px;
-  top: 30px;
+  /* right: 750px; */
+  /* top: 30px; */
+  align-self: center;
+
 }
 
 .cloud-top2 {
   position: absolute;
-  left: 330px;
-  top: 80px;
+  /* left: 330px; */
+  /* top: 80px; */
+  align-self:flex-end;
+  padding-right: 2em;
+  padding-top: 7em;
+
 }
 
 .cloud-bottom {
   position: absolute;
-  top: 200px;
-  left: 120px;
+  /* top: 200px; */
+  /* left: 120px; */
+  align-self: flex-start;
+  padding-top: 14em;
+  padding-left: 7em;
 }
 
-.top-tree {
+.tree {
   display: block;
   margin: 50px auto;
 
 }
 
+/* ------ */
 
-.middle-container {
-  background-color: #9bbf85;
-  position: relative;
+.profile-box {
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
 }
-
 
 .welcome-in {
-  margin: 0 500px 10px 0;
+  /* margin: 0 500px 10px 0; */
   font-size: 1.7rem;
+  align-self: flex-start;
+  margin-left: 25%;
+  margin-bottom: 2px;
 }
 
-.green-dimensions {
+.nature-dimensions-txt {
   color: #2e402d;
-  display: inline-block;
-  margin: 0;
   font-family: 'Rowdies', cursive;
-
+  /* display: inline-block; */
+  margin: 0;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .green-side-txt {
-  display: block;
-  margin: 10px 0 50px 500px;
+  /* display: block; */
+  /* margin: 10px 0 50px 500px; */
   font-size: 1.7rem;
+  align-self: flex-end;
+  margin-right: 7%;
+  margin-top: 2px;;
 }
 
-.profile-box {
-  padding-bottom: 20px;
-}
-
-
-/*------------------------------*/
-/** 2nd DIV - MIDDLE CONTAINER **/
+/*-------------------------------------------------------------------------------------*/
+/* * 2nd DIV * */
 /*------------------------------*/
 
 .thoughts-box {
   background-color: #9bbf85;
-  position: relative;
-  padding-top: 3px;
+  /* position: relative; */
+  padding-top: 5em;
+  display: flex;
+  flex-direction: column;
 }
 
-.underconstruction {
-  color: #151c15;
-  margin-left: 100px;
-  margin-top: 30px;
-  font-family: 'Noto Sans', sans-serif;
-  font-size: 20px;
-  text-align: left;
-
-}
-
-.tuned {
-  color: #151c15;
-  margin-left: 107px;
-  margin-top: 1px;
-  margin-bottom: 50px;
-  font-family: 'Noto Sans', sans-serif;
-  font-size: 16px;
-  font-weight: bolder;
-  text-align: left;
-
-}
 
 .plantbox {
   background-color: #c7e2b2;
   margin: 0 auto;
   width: 50%;
-  text-align: left;
-  padding: 25px 0;
-  border-radius: 10%;
+  text-align: justify;
+  padding: 20px 60px;;
+  border-radius: 7%;
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.Dalai-Lama {
+  font-size: 18px;
+}
+
+.tutu {
+  font-size: 18px;
 }
 
 .plant {
-  width: 150px;
-  padding-bottom: 50px;
-  float: left;
-  display: flex;
+  width: 123px;
+
+  /* padding-bottom: 50px; */
+  /* float: left; */
+
 }
 
 
@@ -190,24 +196,45 @@ a:hover {
   margin: 0 auto;
   width: 50%;
   text-align: left;
-  padding: 20px 10px;
+  padding: 20px 15px;
   border-radius: 10%;
 
 }
 
 .leaf {
-  width: 150px;
+  width: 123px;
   padding-bottom: 50px;
   float: right;
-  display: flex;
+
 }
+
+/*-------------------------------------------------------------------------------------*/
+/* * 3rd DIV * */
+/*------------------------------*/
+
+.middle-container {
+  background-color: #9bbf85;
+  position: relative;
+  /* display: flex;
+  flex-direction: row;
+  align-content: space-between; */
+
+  display: grid;
+
+   grid-column: <start-line> / <end-line>
+
+}
+
 
 .green-gallery {
   background-color: #c7e2b2;
-  margin: 0 auto;
-  width: 35%;
-  padding: 50px 0;
-  border-radius: 15%;
+  margin: 70px auto;
+  width: 300px;
+  height: 160px;
+  /* padding: 50px 0; */
+  /* border-radius: 15%; */
+
+
 }
 
 .green-stories {
@@ -217,11 +244,14 @@ a:hover {
   width: 35%;
   padding: 50px 0;
   border-radius: 15%;
+
 }
 
 .look {
   width: 30% auto;
   padding-bottom: 25px;
+  padding-top: 25px;
+  font-size: 45p;
 }
 
 .btn {
@@ -257,9 +287,10 @@ a:hover {
 }
 
 
+/*-------------------------------------------------------------------------------------*/
+/* * 4th DIV * */
 /*------------------------------*/
-/** 3rd DIV - BOTTOM CONTAINER **/
-/*------------------------------*/
+
 
 .bottom-container {
   width: 50% auto;
