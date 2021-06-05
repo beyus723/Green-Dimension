@@ -1,4 +1,4 @@
-/******** BODY *********/
+/******** BODY **********************************************************/
 
 body {
   background-color: #c7e2b2;
@@ -59,18 +59,29 @@ a:hover {
 }
 
 
-/*--------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
 /* * 1st DIV - TOP CONTAINER * */
-/*------------------------------*/
+
 
 .top-container {
   width: 100%;
+  /* height: 30px; */
 }
 
 .top-box {
   /* background-color: yellow; */
   position: relative;
   padding-top: 40px;
+  /* width: 20%; */
+  display: flex;
+  flex-direction: column;
+}
+
+.right-box-subpage {
+  /* background-color: yellow; */
+  position: relative;
+  padding-top: 40px;
+  width: 20%;
   display: flex;
   flex-direction: column;
 }
@@ -98,7 +109,6 @@ a:hover {
   align-self:flex-end;
   padding-right: 2em;
   padding-top: 7em;
-
 }
 
 .cloud-bottom {
@@ -113,10 +123,38 @@ a:hover {
 .tree {
   display: block;
   margin: 50px auto;
-
 }
 
-/* ------ */
+.cloud-top2-subpage {
+  /* position: static; */
+  position: fixed;
+  /* left: 120px; */
+  padding-left: 3.5em;
+  width: 80px;
+  height: 30px;
+}
+
+.cloud-bottom-subpage {
+  /* position: static; */
+  position: fixed;
+  /* left: 120px; */
+  padding-left: 16em;
+  padding-top: 2em;
+  width: 80px;
+  height: 30px;
+}
+
+.tree-subpage {
+  /* position: static; */
+  position: fixed;
+  display: block;
+  padding-top: 6em;
+  padding-left: 3em;
+  width: 230px;
+  height: 230px;
+}
+
+/* ------------------------------------ */
 
 .profile-box {
   padding-bottom: 30px;
@@ -150,69 +188,11 @@ a:hover {
   margin-top: 2px;;
 }
 
-/*-------------------------------------------------------------------------------------*/
-/* * 2nd DIV * */
-/*------------------------------*/
 
-.thoughts-box {
-  background-color: #9bbf85;
-  width: 70%;
-  /* position: relative; */
-  padding-top: 5em;
-  display: flex;
-  flex-direction: column;
-}
+/* * 2nd DIV ********************************************************** */
 
-
-.plantbox {
-  background-color: #c7e2b2;
-  margin: 0 auto;
-  width: 50%;
-  text-align: justify;
-  padding: 20px 60px;;
-  border-radius: 7%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.Dalai-Lama {
-  font-size: 18px;
-}
-
-.tutu {
-  font-size: 18px;
-}
-
-.plant {
-  width: 123px;
-
-  /* padding-bottom: 50px; */
-  /* float: left; */
-
-}
-
-
-
-.leafbox {
-  background-color: #c7e2b2;
-  margin: 0 auto;
-  width: 50%;
-  text-align: left;
-  padding: 20px 15px;
-  border-radius: 10%;
-
-}
-
-.leaf {
-  width: 123px;
-  padding-bottom: 50px;
-  float: right;
-
-}
-
-/*-------------------------------------------------------------------------------------*/
-/* * 3rd DIV * */
-/*------------------------------*/
+/*-------------------------------------------------------------------------*/
+/* * Middle Container* */
 
 .middle-container {
   background-color: #9bbf85;
@@ -220,11 +200,40 @@ a:hover {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-content: stretch;
+  /* align-content: stretch; */
   justify-content: center;
 
   /* display: grid;
   grid-column: <start-line> / <end-line> */
+}
+
+.subpage-boxes {
+  background-color: #9bbf85;
+  width: 60%;
+  /* position: relative; */
+  padding-top: 5em;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+
+.detail-box {
+  background-color: #c7e2b2;
+  margin: 0 auto;
+  width: 50%;
+  height: 230px;
+  text-align: justify;
+  padding: 20px 60px;
+  border-radius: 10%;
+}
+
+
+.icon-detail-box {
+  width: 77px;
+  padding-bottom: 30%;
+  padding-top: 3%;
+  padding-right: 7%;
+  float: left;
 }
 
 .buttons-home-page {
@@ -236,10 +245,9 @@ a:hover {
   /* background-color: red; */
 }
 
-
-.buttons-sub-page {
-  width: 30%;
-  background-color: red;
+.buttons-sub-pages {
+  width: 20%;
+  /* background-color: red; */
 }
 
 .green-button {
@@ -248,7 +256,6 @@ a:hover {
   /* padding: 50px 0; */
   width: 230px;
   height: 120px;
-
   border-radius: 7%;
   justify-content: center;
 }
@@ -302,9 +309,9 @@ a:hover {
 }
 
 
-/*-------------------------------------------------------------------------------------*/
-/* * 4th DIV * */
-/*------------------------------*/
+/*-----------------------------------------------------------------------*/
+/* * Footer * */
+
 
 
 .bottom-container {
@@ -320,7 +327,7 @@ a:hover {
 
 
 
-/* +++++++++++++++++++++++++++++++++MediaQ */
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++MediaQ */
 
 @media all and (max-width: 1023px) {
 
