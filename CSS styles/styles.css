@@ -77,6 +77,14 @@ a:hover {
   flex-direction: column;
 }
 
+
+.subpage-header {
+  margin-top: -40px;
+  /* padding-bottom: 20px; */
+
+}
+
+
 .right-box-subpage {
   /* background-color: yellow; */
   position: relative;
