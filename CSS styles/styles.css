@@ -156,6 +156,7 @@ a:hover {
 
 .thoughts-box {
   background-color: #9bbf85;
+  width: 70%;
   /* position: relative; */
   padding-top: 5em;
   display: flex;
@@ -218,15 +219,30 @@ a:hover {
   position: relative;
   display: flex;
   flex-direction: row;
-  align-content: space-around;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: center;
 
   /* display: grid;
   grid-column: <start-line> / <end-line> */
+}
 
+.buttons-home-page {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  /* background-color: red; */
 }
 
 
-.green-gallery {
+.buttons-sub-page {
+  width: 30%;
+  background-color: red;
+}
+
+.green-button {
   background-color: #c7e2b2;
   margin: 50px auto;
   /* padding: 50px 0; */
@@ -237,20 +253,18 @@ a:hover {
   justify-content: center;
 }
 
-.green-stories {
-
+/* .green-stories {
   background-color: #c7e2b2;
   margin: 0 auto;
   width: 35%;
   padding: 50px 0;
   border-radius: 15%;
-
-}
+} */
 
 .look {
   width: 30% auto;
   padding-bottom: 25px;
-  padding-top: 25px;
+  padding-top: 15px;
   font-size: 45p;
 }
 
@@ -314,7 +328,7 @@ a:hover {
     background-color: #9bbf85;
     position: relative;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-content: space-around;
 
     /* display: grid;
