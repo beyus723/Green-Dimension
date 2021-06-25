@@ -86,10 +86,12 @@ a:hover {
 
 
 .right-box-subpage {
-  /* background-color: yellow; */
+  background-color: #c7e2b2;
   position: relative;
   padding-top: 40px;
-  width: 20%;
+
+  width: 240px;
+  /* height: 100%; */
   display: flex;
   flex-direction: column;
 }
@@ -137,7 +139,7 @@ a:hover {
   /* position: static; */
   position: fixed;
   /* left: 120px; */
-  padding-left: 3.5em;
+  padding-left: 4em;
   width: 80px;
   height: 30px;
 }
@@ -146,7 +148,7 @@ a:hover {
   /* position: static; */
   position: fixed;
   /* left: 120px; */
-  padding-left: 16em;
+  padding-left: 0.7em;
   padding-top: 2em;
   width: 80px;
   height: 30px;
@@ -157,9 +159,9 @@ a:hover {
   position: fixed;
   display: block;
   padding-top: 6em;
-  padding-left: 3em;
-  width: 230px;
-  height: 230px;
+  padding-left: 1.2em;
+  width: 200px;
+  height: 200px;
 }
 
 /* ------------------------------------ */
@@ -207,7 +209,7 @@ a:hover {
   position: relative;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   /* align-content: stretch; */
   justify-content: center;
 
@@ -220,8 +222,8 @@ a:hover {
   width: 60%;
   /* position: relative; */
   padding-top: 5em;
-  /* display: flex;
-  flex-direction: column; */
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -255,7 +257,8 @@ a:hover {
 
 .buttons-sub-pages {
   width: 20%;
-  /* background-color: red; */
+  /* background-color: yellow; */
+  /* align-self: center; */
 }
 
 .green-button {
@@ -323,8 +326,8 @@ a:hover {
 
 
 .bottom-container {
-  width: 50% auto;
-  padding: 50px;
+  width: auto;
+  padding: 20px 0 20px 0;
   background-color: #9bbf85;
 }
 
