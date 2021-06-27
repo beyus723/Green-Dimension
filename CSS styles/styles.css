@@ -279,8 +279,8 @@ a:hover {
 }
 
 .movie-posters {
-  width: 40%;
-  height: 80%;
+  width: 250px;
+  height: 320px;
   /* padding-bottom: 20%; */
   /* padding-top: 2%; */
   padding-right: 5%;
