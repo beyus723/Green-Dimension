@@ -57,10 +57,9 @@ a:hover {
   color: #c7e2b2;
 }
 
+/* ------------- INDEX.html -- MAIN PAGE ------------- */
 
-/*--------------------------------------------------------------------*/
-/* * 1st DIV - TOP CONTAINER * */
-
+/* *********** TOP CONTAINER ********** */
 
 .top-container {
   width: 100%;
@@ -74,27 +73,6 @@ a:hover {
   /* width: 20%; */
   display: flex;
   flex-direction: column;
-}
-
-
-.subpage-header {
-  /* margin-top: -40px; */
-  /* padding-bottom: 20px; */
-
-}
-
-
-.right-box-subpage {
-  background-color: #c7e2b2;
-  position: relative;
-  padding-top: 40px;
-
-  width: 240px;
-  /* height: 100%; */
-  /* display: flex;
-  flex-direction: column; */
-
-  float: left;
 }
 
 .helloWorld {
@@ -136,37 +114,7 @@ a:hover {
   margin: 50px auto;
 }
 
-.cloud-top2-subpage {
-  /* position: static; */
-  /* position: fixed; */
-  /* left: 120px; */
-  padding-left: 4em;
-  width: 80px;
-  height: 30px;
-}
-
-.cloud-bottom-subpage {
-  /* position: static; */
-  /* position: fixed; */
-  /* left: 120px; */
-  padding-left: 0.7em;
-  padding-top: 2em;
-  width: 80px;
-  height: 30px;
-}
-
-.tree-subpage {
-  /* position: static; */
-  /* position: fixed; */
-  display: block;
-  /* padding-top: 1em; */
-  padding-left: 1.2em;
-  padding-bottom: 5%;
-  width: 200px;
-  height: 200px;
-}
-
-/* ----------TITLE-------------------------- */
+/* *********** TITLE ********** */
 
 .title {
   padding-bottom: 30px;
@@ -200,6 +148,95 @@ a:hover {
   margin-top: 2px;;
 }
 
+/***************** NAVIGATION BUTTONS  ***********/
+
+.navigation-buttons {
+  width: 100%;
+  margin: 50px auto;
+  /* padding: 10px 0; */
+  border-radius: 7px;
+  background-color: #9bbf85;
+
+
+  /* display: grid;
+  grid-template-columns: repeat(3, 15%);
+  grid-template-rows: repeat(1, 50%);
+  justify-content: center;
+  align-content: center; */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.green-button-index {
+  /* background-color: #c7e2b2; */
+  margin: 5px;
+  padding: 5px;
+}
+
+
+
+
+/* ------------- #ffffff#ffffff#ffffff#ffffff#ffffff SUBPAGES.html -- SUBPAGES ------------- */
+
+
+.container-sub {
+  background-color: #9bbf85;
+  padding-left: 50px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  /* align-content: stretch; */
+  /* justify-content: center; */
+}
+
+
+.left-box-subpage {
+  background-color: #c7e2b2;
+  position: relative;
+  padding: 40px;
+  /* width: 240px; */
+  /* height: 100%; */
+  /* display: flex;
+  flex-direction: column; */
+  float: left;
+}
+
+
+.cloud-top2-subpage {
+  /* position: static; */
+  /* position: fixed; */
+  /* left: 120px; */
+  padding-left: 4em;
+  width: 80px;
+  height: 30px;
+}
+
+.cloud-bottom-subpage {
+  /* position: static; */
+  /* position: fixed; */
+  /* left: 120px; */
+  padding-left: 0.7em;
+  padding-top: 2em;
+  width: 80px;
+  height: 30px;
+}
+
+.tree-subpage {
+  /* position: static; */
+  /* position: fixed; */
+  display: block;
+  /* padding-top: 1em; */
+  padding-left: 1.2em;
+  padding-bottom: 5%;
+  width: 200px;
+  height: 200px;
+}
+
 .nature-dimensions-txt-sub1 {
   color: #2f402d;
   font-family: 'Rowdies', cursive;
@@ -222,36 +259,6 @@ a:hover {
 
 
 
-
-/* * 2nd DIV ********************************************************** */
-
-/*-------------------------------------------------------------------------*/
-/* * Middle Container* */
-
-.middle-container {
-  background-color: #9bbf85;
-  padding-left: 50px;
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  /* flex-wrap: wrap; */
-  align-content: stretch;
-  justify-content: center;
-}
-
-.middle-container-sub {
-  background-color: #9bbf85;
-  padding-left: 50px;
-  /* position: relative; */
-
-  /* display: flex; */
-  /* flex-direction: row; */
-  /* flex-wrap: wrap; */
-  /* align-content: stretch; */
-  /* justify-content: center; */
-}
-}
-
 .subpage-boxes {
   background-color: #9bbf85;
   width: 60%;
@@ -260,7 +267,7 @@ a:hover {
 }
 
 
-.txt-mainpage-box {
+.mainpage-box {
   width: 100%;
   border-radius: 7px;
   background-color: #9bbf85;
@@ -288,7 +295,7 @@ a:hover {
   /* height: auto; */
   /* background-color: #fffe80; */
   margin: 25px;
-  /* padding: 25px 15px 0 10px; */
+  padding: 25px 25px 0 10px;
   border-radius: 7px;
   text-align: justify;
   font-size: 17px;
@@ -329,39 +336,12 @@ a:hover {
 }
 
 
-/***************** NAVIGATION BUTTONS  ***********/
-.navigation-buttons {
-  width: 100%;
-  margin: 50px auto;
-  /* padding: 10px 0; */
-  border-radius: 7px;
-  background-color: #9bbf85;
-
-
-  /* display: grid;
-  grid-template-columns: repeat(3, 15%);
-  grid-template-rows: repeat(1, 50%);
-  justify-content: center;
-  align-content: center; */
-
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-.green-button-index {
-  /* background-color: #c7e2b2; */
-  margin: 5px;
-  padding: 5px;
-}
 
 
 .buttons-sub-pages {
   /* width: 16%; */
   padding-top: 40px;
-  /* background-color: yellow; */
+  background-color: yellow;
   align-self: center;
 }
 
@@ -554,7 +534,7 @@ a:hover {
 
   .right-box-subpage {
     background-color: yellow;
-    position: fixed;
+    /* position: fixed; */
     /* padding-top: 40px; */
     /* width: 20%; */
     /* height: 50%; */
