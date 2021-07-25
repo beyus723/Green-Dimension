@@ -297,6 +297,10 @@ a:hover {
 
 /* ------------- #ffffff#ffffff#ffffff#ffffff#ffffff SUBPAGES.html -- SUBPAGES ------------- */
 
+.homepage-btn {
+  font-size: 17px;
+  background-color: #fffe80;
+}
 
 .container-sub {
   background-color: #9bbf85;
@@ -353,7 +357,8 @@ a:hover {
   padding-left: 23%;
 }
 
-/* ************************ NAVIGATION ******************* */
+/* ************************ SUBPAGE
+NAVIGATION ******************* */
 
 .buttons-sub-pages {
   /* background-color: yellow; */
@@ -379,20 +384,30 @@ a:hover {
   margin: 0 auto;
   width: 70%;
   text-align: justify;
-  /* padding: 10px 30px; */
-}
-
-
-.movie-posters {
-  width: 250px;
-  height: 320px;
-  padding-right: 5%;
-  float: left;
-  opacity: 77%;
-  align-content: center;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   align-self: baseline;
 }
 
+.movie-posters {
+  width: 12.5rem;
+  /* height: 320px; */
+  margin: 15px 0 0 30px;
+  /* padding-right: 35px; */
+  /* padding-bottom: 15px; */
+  float: left;
+  opacity: 98%;
+  align-content: center;
+  align-self: baseline;
+  /* z-index: 1; */
+}
+
+.text-details {
+  /* background-color: #c7e2b2; */
+  /* padding: 25px; */
+}
 
 
 
