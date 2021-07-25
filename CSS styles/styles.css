@@ -239,15 +239,16 @@ a:hover {
   background-color: #9bbf85;
   padding-left: 50px;
   position: relative;
+
+
   display: flex;
   flex-direction: row;
   /* flex-wrap: wrap; */
   align-content: stretch;
   /* justify-content: center; */
 }
-
-  /* display: grid;
-  grid-column: <start-line> / <end-line> */
+  display: grid;
+  grid-column: <start-line> / <end-line>
 }
 
 .subpage-boxes {
@@ -290,13 +291,32 @@ a:hover {
   align-self: baseline;
 }
 
-.buttons-home-page {
-  width: 50%;
-  display: flex;
+.navigation-buttons {
+  width: 90%;
+  margin: 20px auto;
+  padding: 50px 0;
+  background-color: #9bbf85;
+
+  display: grid;
+  grid-template-columns: repeat(3, 15%);
+  grid-template-rows: repeat(1, 50%);
+  justify-content: center;
+  align-content: center;
+
+  /* display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-content: space-around;
-  /* background-color: red; */
+  justify-content: center; */
+}
+
+.green-button {
+  background-color: #c7e2b2;
+  margin: 20px auto;
+  /* padding: 50px 0; */
+  width: 240px;
+  height: 120px;
+  border-radius: 7%;
+  /* justify-content: center; */
 }
 
 .buttons-sub-pages {
@@ -304,19 +324,10 @@ a:hover {
   padding-top: 40px;
   /* background-color: yellow; */
   align-self: center;
-
-
 }
 
-.green-button {
-  background-color: #c7e2b2;
-  margin: 50px auto;
-  /* padding: 50px 0; */
-  width: 230px;
-  height: 120px;
-  border-radius: 7%;
-  justify-content: center;
-}
+
+
 
 .green-button-sub {
   background-color: #95b87f;
@@ -328,20 +339,6 @@ a:hover {
   justify-content: center;
 }
 
-/* .green-stories {
-  background-color: #c7e2b2;
-  margin: 0 auto;
-  width: 35%;
-  padding: 50px 0;
-  border-radius: 15%;
-} */
-
-.look {
-  width: 30% auto;
-  padding-bottom: 25px;
-  padding-top: 15px;
-  font-size: 45p;
-}
 
 /* .btn {
   background: #95b87f;
@@ -413,7 +410,7 @@ a:hover {
 .btn {
   width: 150px;
   height: 50px;
-  margin: 30px;
+  margin: 30px auto;
   /* border: 3px dotted #95b87f; */
   border-radius: 9px;
   font-family: 'Rowdies', cursive;
@@ -489,7 +486,7 @@ a:hover {
 .bottom-container {
   width: auto;
   padding: 20px 0 20px 0;
-  background-color: #9bbf85;
+  /* background-color: #9bbf85; */
 }
 
 .copyright {
