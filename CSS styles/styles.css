@@ -10,7 +10,7 @@ hr {
   border: dotted #654a2b 3.3px;
   border-bottom: none;
   width: 71%;
-  margin: 90px auto;
+  margin: 70px auto;
 }
 
 h1 {
@@ -363,7 +363,7 @@ NAVIGATION ******************* */
   margin: 0 auto;
   width: 70%;
   text-align: justify;
-  padding: 10px 30px;
+  /* padding: 10px 30px; */
   display: flex;
   align-items: center;
   justify-content: center;
