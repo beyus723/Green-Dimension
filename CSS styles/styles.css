@@ -44,8 +44,9 @@ p {
 a {
   color: #2e402d;
   font-family: 'Rowdies', cursive;
-  margin: 0 7px;
+  /* margin: 0 7px; */
   text-decoration: none
+
 }
 
 a:hover {
@@ -279,7 +280,8 @@ a:hover {
   background-color: #fffe80;
   opacity: 90%;
   width: 14.2rem;
-  padding: 4px 0;
+  padding: 3px 0;
+  margin-bottom: 15px;
   /* height: 20px; */
   /* border-radius: 7px;
   margin-top: 70px;
