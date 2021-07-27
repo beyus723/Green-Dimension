@@ -274,8 +274,15 @@ a:hover {
 
 /* ------------- #ffffff#ffffff#ffffff#ffffff#ffffff SUBPAGES.html -- SUBPAGES ------------- */
 .homepage-btn {
+  /* position: absolute; */
   font-size: 17px;
   background-color: #fffe80;
+  opacity: 90%;
+  width: 14.5rem;;
+  /* height: 20px; */
+  /* border-radius: 7px;
+  margin-top: 70px;
+  margin-left: 74px; */
 }
 
 .container-sub {
