@@ -278,14 +278,15 @@ a:hover {
   font-size: 17px;
   background-color: #fffe80;
   opacity: 90%;
-  width: 14.5rem;;
+  width: 14.5rem;
+  padding: 4px 0;
   /* height: 20px; */
   /* border-radius: 7px;
   margin-top: 70px;
   margin-left: 74px; */
 }
 
-.container-sub {
+.subpage-container {
   background-color: #9bbf85;
   padding-left: 50px;
   position: relative;
@@ -376,7 +377,7 @@ NAVIGATION ******************* */
   /* padding-right: 35px; */
   /* padding-bottom: 15px; */
   float: left;
-  opacity: 98%;
+  opacity: 87%;
   align-content: center;
   align-self: baseline;
   /* z-index: 1; */
