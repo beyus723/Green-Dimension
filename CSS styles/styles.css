@@ -278,7 +278,7 @@ a:hover {
   font-size: 17px;
   background-color: #fffe80;
   opacity: 90%;
-  width: 14.5rem;
+  width: 14.2rem;
   padding: 4px 0;
   /* height: 20px; */
   /* border-radius: 7px;
@@ -370,7 +370,7 @@ NAVIGATION ******************* */
   align-self: baseline;
 }
 
-.movie-posters {
+.box-posters {
   width: 12.5rem;
   /* height: 320px; */
   margin: 15px 0 0 30px;
