@@ -1,6 +1,6 @@
 /******** BODY **********************************************************/
 body {
-  background-color: #c7e2b2;
+  background-color: #000000;
   margin: 0;
   text-align: center;
   font-family: fantasy;
@@ -14,7 +14,7 @@ hr {
 }
 
 h1 {
-  color: #2e402d;
+  color: #ffffff;
   /* margin: 0 auto; */
   font-family: 'Rowdies', cursive;
   font-size: 3rem;
@@ -34,7 +34,7 @@ h3 {
 }
 
 p {
-  color: #151c15;
+  color: #f9faf9;
   /* margin: 0 auto; */
   font-family: 'Noto Sans', sans-serif;
   line-height: 1.7;
@@ -42,7 +42,7 @@ p {
 }
 
 a {
-  color: #2e402d;
+  color: #ffffff;
   font-family: 'Rowdies', cursive;
   /* margin: 0 7px; */
   text-decoration: none
@@ -50,7 +50,7 @@ a {
 }
 
 a:hover {
-  color: #c7e2b2;
+  color: #ffffff;
 }
 
 /* **************** ----- BUTTON EFFECT ------ ********** */
@@ -74,7 +74,7 @@ a:hover {
 
 .btn::before, .btn::after {
   position: absolute;
-  background: #c7e2b2;
+  background: #000000;
   z-index: -1;
   transition: 1.1s;
   content: '';
@@ -102,22 +102,22 @@ a:hover {
 
 .btn:hover::before {
   width: 0px;
-  background: #95b87f;
+  background: #000000;
   border-radius: 5px;
   opacity: 50%;
 }
 
 .btn:hover::after {
   height: 0px;
-  background: #95b87f;
+  background: #000000;
   border-radius: 5px;
   opacity: 70%;
 }
 
 .btn:hover {
-  background: #c7e2b2;
+  background: #000000;
   border-radius: 5px;
-  color: black;
+  color: rgb(255, 255, 255);
   opacity: 72%;
 }
 
@@ -142,11 +142,11 @@ a:hover {
 }
 
 .helloWorld {
-  color: #0c100c;
+  color: #e6ebe6;
   margin: 0;
   font-family: 'Rowdies', cursive;
   font-size: 4.5rem;
-  padding: 70px;
+  padding: 123px;
 }
 
 .cloud-top {
@@ -176,7 +176,7 @@ a:hover {
 
 .tree {
   display: block;
-  margin: 50px auto;
+  margin: -50px auto;
 }
 
 /* *********** TITLE ********** */
@@ -186,13 +186,7 @@ a:hover {
   flex-direction: column;
 }
 
-.welcome-in-txt {
-  /* margin: 0 500px 10px 0; */
-  font-size: 1.7rem;
-  align-self: flex-start;
-  margin-left: 25.6%;
-  margin-bottom: 2px;
-}
+
 
 .green-dimensions-txt {
   color: #2e402d;
@@ -208,9 +202,9 @@ a:hover {
   /* margin: 10px 0 50px 500px; */
   font-size: 1.7rem;
   align-self: flex-end;
-  margin-right: 19%;
-  margin-top: 2px;
-  ;
+  margin-right: 12%;
+  margin-top: -23px;
+  font-weight: bold;
 }
 
 /***************** NAVIGATION BUTTONS  ***********/
@@ -219,7 +213,7 @@ a:hover {
   margin: 50px auto;
   /* padding: 10px 0; */
   border-radius: 7px;
-  background-color: #9bbf85;
+  background-color: #0c2e0cf7;
   /* display: grid;
   grid-template-columns: repeat(3, 15%);
   grid-template-rows: repeat(1, 50%);
